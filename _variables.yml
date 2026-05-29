@@ -1,0 +1,64 @@
+# ============================================================
+# Global Project Variables
+# File: _variables.yml
+#
+# Purpose:
+# - Store shared values used across lessons.
+# - Avoid repeating teacher name, brand name, colors, etc.
+# - Keep all custom variables under `gd:` to avoid Quarto reserved keys.
+# ============================================================
+
+gd:
+  # ----------------------------------------------------------
+  # Brand information
+  # ----------------------------------------------------------
+
+  brand-name: "GoodMath"
+  teacher: "Adriaan"
+  center: "Học toán cùng Adriaan"
+
+
+  # ----------------------------------------------------------
+  # Color system
+  # ----------------------------------------------------------
+
+  colors:
+    primary: "#1D4ED8"
+    accent: "#16A34A"
+    light-bg: "#EFF6FF"
+    border: "#CBD5E1"
+    muted: "#64748B"
+
+
+  # ----------------------------------------------------------
+  # Default lesson settings
+  # ----------------------------------------------------------
+
+  lesson:
+    subject: "Toán"
+    level: "THCS"
+    show-solutions: false
+    show-watermark: false
+    default-grade: 8
+
+
+  # ----------------------------------------------------------
+  # Page labels
+  # ----------------------------------------------------------
+
+  page:
+    header-left: "Tài liệu học tập"
+    header-right: "GoodMath"
+    footer-center: "Chúc em học tốt!"
+
+
+  # ----------------------------------------------------------
+  # Common labels used in lessons
+  # ----------------------------------------------------------
+
+  labels:
+    part: "Phần"
+    exercise: "Bài"
+    example: "Ví dụ"
+    solution: "Hướng dẫn giải"
+    note: "Ghi chú"
